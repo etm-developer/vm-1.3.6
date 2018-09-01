@@ -1,0 +1,21 @@
+{
+  "name": "etm-vm",
+  "version": "1.0.0",
+  "description": "node vm which is used to run sidechain dapps",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bignumber": "git+https://github.com/entanmo/bignumber.git",
+    "change-case": "3.0.0",
+    "json-sql": "git+https://github.com/entanmo/json-sql.git"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "gulp": "^3.9.1",
+    "mocha": "^2.2.5",
+    "should": "~4.6.0"
+  }
+}
